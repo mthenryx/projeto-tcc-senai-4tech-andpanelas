@@ -2,15 +2,18 @@ create database db_entre_panelas_2026;
 
 use db_entre_panelas_2026;
 
+#drop database db_entre_panelas_2026;
+
 create table tbl_usuario (
-	id			int not null auto_increment primary key,
-    nome    	varchar(150) not null,
-    username    varchar(20) not null,
-    email		varchar(256) not null,
-    senha		varchar(255) not null,
-    descricao	varchar(200) not null,
-    banner_url  varchar(2000) not null,
-    foto_perfil varchar(2000) not null
+	id			    int not null auto_increment primary key,
+    nome    	    varchar(150) not null,
+    username        varchar(20) not null,
+    email		    varchar(256) not null,
+    senha		    varchar(255) not null,
+    descricao	    varchar(200) not null,
+    banner_url      varchar(2000) not null,
+    foto_perfil     varchar(2000) not null,
+    data_nascimento date not null
 );
 
 create table tbl_em_alta (
@@ -89,7 +92,7 @@ create table tbl_dificuldade (
 
 create table tbl_porcao (
 	id			    int not null auto_increment primary key,
-    numero_porcoes	int not null
+    numero_porcao	int not null
 );
 
 create table tbl_receita (
@@ -316,7 +319,7 @@ create table tbl_denuncia_receita (
 create table tbl_comunidade_receita (
 	id			  int not null auto_increment primary key,
 	id_receita    int not null,
-    id_comunidade   int not null,
+    id_comunidade int not null,
     
     constraint FK_RECEITA_COMUNIDADE_RECEITA
     foreign key (id_receita)
@@ -340,3 +343,119 @@ create table tbl_comunidade_usuario (
     foreign key (id_usuario)
     references tbl_usuario(id)
 );
+
+create table tbl_curtida (
+    id         int not null auto_increment primary key,
+    id_usuario int not null,
+    id_receita int not null,
+    date_dia   date default (current_date),
+
+    unique (id_usuario, id_receita),
+
+    constraint FK_USUARIO_CURTIDA
+    foreign key (id_usuario)
+    references tbl_usuario(id),
+    
+	constraint FK_RECEITA_CURTIDA
+    foreign key (id_receita)
+    references tbl_receita(id)
+);
+
+insert into tbl_porcao (numero_porcao) values
+('1'),
+('2'),
+('3'),
+('4'),
+('5'),
+('6'),
+('7'),
+('8'),
+('9'),
+('10'),
+('11'),
+('12'),
+('13'),
+('14'),
+('+15');
+
+insert into tbl_dificuldade (dificuldade) values
+('Fácil'),
+('Médio'),
+('Difícil');
+
+insert into tbl_custo (tipo_custo) values
+('Econômico'),
+('Moderado'),
+('Alto');
+
+insert into tbl_unidade_medida (unidade) values
+('g'),
+('kg'),
+('ml'),
+('L'),
+('un');
+
+insert into tbl_categoria (categoria) values
+('Café da manhã'),
+('Almoço'),
+('Jantar'),
+('Sobremesa'),
+('Lanche'),
+('Sopa'),
+('Salada'),
+('Bebida');
+
+INSERT INTO tbl_tag (nome_tag) VALUES
+('ComidaBoa'),
+('ReceitaCaseira'),
+('ReceitaRapida'), 
+('FacilDeFazer'),
+('Almoco'),
+('Jantar'),
+('CafeDaManha'),
+('Lanche'),
+('Sobremesa'),
+('Doce'),
+('Salgado'),
+('Massa'),
+('Carne'),
+('Frango'),
+('Peixe'),
+('Vegetariana'),
+('Vegana'),
+('Saudavel'),
+('Fit'),
+('LowCarb'),
+('Proteica'),
+('BaixoCusto'),
+('Economica'),
+('Familia'),
+('Romantico'),
+('Festa'),
+('Churrasco'),
+('Natal'),
+('AnoNovo'),
+('ComidaBrasileira'),
+('ComidaItaliana'),
+('ComidaMexicana'),
+('ComidaJaponesa'),
+('ParaCriancas'),
+('MealPrep'),
+('AirFryer'),
+('Microondas'),
+('SemForno'),
+('SemLactose'),
+('SemGluten');
+
+insert into tbl_status (status) values
+('comprado'),
+('pendente');
+
+insert into tbl_categoria_principal (categoria_principal) values
+('Confeitaria & Doces'),
+('Culinária Brasileira'),
+('Vegano & Vegetariano'),
+('Fitness & Saudável'),
+('Massas & Risotos'),
+('Bebidas & Drinks'),
+('Churrasco');
