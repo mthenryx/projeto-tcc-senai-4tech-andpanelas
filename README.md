@@ -26,6 +26,7 @@ Abaixo estão dispostos os links e caminhos para cada parte essencial do projeto
 ### 3. Documentação de Teste de Software
 * [📄 Plano de Teste de Software - ROTEIRO](./Teste%20de%20software/PLANO%20DE%20TESTE%20DE%20SOFTWARE%20-%20ROTEIRO.docx)
 * [📄 Plano de Teste de Software - DESEMPENHO](./Teste%20de%20software/PLANO%20DE%20TESTE%20DE%20SOFTWARE%20-%20DESEMPENHO.docx)
+* [📄 Plano de Teste de Software - USABILIDADE](./Teste%20de%20software/PLANO%20DE%20TESTE%20DE%20SOFTWARE%20-%20USABILIDADE.docx)
 
 ### 4. Código-Fonte e Recursos dos Sistemas
 
