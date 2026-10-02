@@ -19,11 +19,15 @@ Abaixo estão dispostos os links e caminhos para cada parte essencial do projeto
 * **WBS / EAP (Miro):** [Acessar Quadro no Miro](https://miro.com/welcomeonboard/MVRvSEdKK2ZRZmoraWNOZ0lxTi8rdGNqQUJhR21ZbE04TTE3cjYrejA4TzlKb1pESjg0d0xINjVjcG15SjFmclh5ZjRaelg3a1NQQ1lZL1J2bnRZU20vNVRMVHBINndZV2R2UkpPblNQOXI4bXZnSE1aM2RNTkNZT0dyZWYyMEFNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=843116237482)
 
 ### 2. Documentação e Requisitos
-* [📄 Requisitos de Negócio](Requisitos%20de%20Negócio%20(TCC).docx)
-* [📄 Requisitos Funcionais](Requisitos%20Funcionais%20(TCC).docx)
-* [📄 Requisitos Não Funcionais](Requisitos%20Não%20Funcionais%20(TCC).docx)
+* [📄 Requisitos de Negócio](./Requisitos/Requisitos%20de%20Negócio%20(TCC).docx)
+* [📄 Requisitos Funcionais](./Requisitos/Requisitos%20Funcionais%20(TCC).docx)
+* [📄 Requisitos Não Funcionais](./Requisitos/Requisitos%20Não%20Funcionais%20(TCC).docx)
 
-### 3. Código-Fonte e Recursos dos Sistemas
+### 3. Documentação de Teste de Software
+* [📄 Plano de Teste de Software - ROTEIRO](./Teste%20de%20software/PLANO%20DE%20TESTE%20DE%20SOFTWARE%20-%20ROTEIRO.docx)
+* [📄 Plano de Teste de Software - DESEMPENHO](./Teste%20de%20software/PLANO%20DE%20TESTE%20DE%20SOFTWARE%20-%20DESEMPENHO.docx)
+
+### 4. Código-Fonte e Recursos dos Sistemas
 
 * **Back-end:** [Repositório Back-end no GitHub](https://github.com/enzzof08/projeto-tcc-senai-andpanelas-backend)
   > *No repositório back-end você encontra os arquivos de modelagem do banco de dados e também a documentação do Swagger.*
