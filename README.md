@@ -36,6 +36,9 @@ Abaixo estão dispostos os links e caminhos para cada parte essencial do projeto
 * **Front-end:** [Repositório Front-end no GitHub](https://github.com/mthenryx/projeto-tcc-senai-andpanelas-frontend)
   > *No repositório front-end você encontra o protótipo de alta fidelidade do Figma.*
 
+* **Inteligência artificial:** [Repositório do Chefinho no GitHub](https://github.com/mthenryx/projeto-tcc-senai-andpanelas-ia-chefinho)
+  > *No repositório do chefinho você encontra o código fonte da IA, suas conecteções com o back-end e tools.*
+
 ---
 
 ## Equipe
