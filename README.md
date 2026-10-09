@@ -28,7 +28,10 @@ Abaixo estão dispostos os links e caminhos para cada parte essencial do projeto
 * [📄 Plano de Teste de Software - DESEMPENHO](./Teste%20de%20software/PLANO%20DE%20TESTE%20DE%20SOFTWARE%20-%20DESEMPENHO.docx)
 * [📄 Plano de Teste de Software - USABILIDADE](./Teste%20de%20software/PLANO%20DE%20TESTE%20DE%20SOFTWARE%20-%20USABILIDADE.docx)
 
-### 4. Código-Fonte e Recursos dos Sistemas
+### 4. Documentação das Sprints do projeto
+* [📄 Sprint da primeira semana](./Sprints/Relatorio_Primeira_Sprint_Entre_Panelas.docx)
+
+### 5. Código-Fonte e Recursos dos Sistemas
 
 * **Back-end:** [Repositório Back-end no GitHub](https://github.com/enzzof08/projeto-tcc-senai-andpanelas-backend)
   > *No repositório back-end você encontra os arquivos de modelagem do banco de dados e também a documentação do Swagger.*
@@ -38,6 +41,9 @@ Abaixo estão dispostos os links e caminhos para cada parte essencial do projeto
 
 * **Inteligência artificial:** [Repositório do Chefinho no GitHub](https://github.com/mthenryx/projeto-tcc-senai-andpanelas-ia-chefinho)
   > *No repositório do chefinho você encontra o código fonte da IA, suas conecteções com o back-end e tools.*
+
+* **Mobile:** [Repositório do Mobile no Github](https://github.com/Fernando-68/projeto-tcc-andpanelas-mobile)
+  > *No repositório mobile encontra-se a criação das telas para a interface de um celular Android*
 
 ---
 
