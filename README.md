@@ -30,6 +30,8 @@ Abaixo estão dispostos os links e caminhos para cada parte essencial do projeto
 
 ### 4. Documentação das Sprints do projeto
 * [📄 Sprint da primeira semana](./Sprints/Relatorio_Primeira_Sprint_Entre_Panelas.docx)
+* [📄 Sprint da segunda semana](./Sprints/Relatorio_Segunda_Sprint_Entre_Panelas.docx)
+* [📄 Sprint da terceira semana](./Sprints/Relatorio_Terceira_Sprint_Entre_Panelas.docx)
 
 ### 5. Código-Fonte e Recursos dos Sistemas
 
