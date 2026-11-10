@@ -52,3 +52,11 @@ Abaixo estão dispostos os links e caminhos para cada parte essencial do projeto
 
 ## Equipe
 Desenvolvido pela **4Tech** como Projeto Profissional de Software — 2º Semestre de 2026.
+
+* [Matheus Henry](https://github.com/mthenryx)
+
+* [Fernando de Sá](https://github.com/Fernando-68)
+
+* [Enzzo Fernandes](https://github.com/enzzof08)
+
+* [Ryan](https://github.com/ryanalcantarasantos)
