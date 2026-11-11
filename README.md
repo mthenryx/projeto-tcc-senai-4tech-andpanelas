@@ -1,62 +1,85 @@
-﻿# Entre Panelas 
+﻿# &panelas — Entre Panelas
 
-O **Entre Panelas** é uma plataforma inteligente de receitas desenvolvida como Projeto de TCC (Trabalho de Conclusão de Curso) no **SENAI Jandira**.
+<p align="center">
+  <img src="./imgs/Banner%20do%20projeto.png" alt="Banner do projeto Entre Panelas" width="100%">
+</p>
 
-> **Status:** Em desenvolvimento 
+<p align="center">
+  <strong>Uma plataforma inteligente para compartilhar receitas, conectar pessoas e transformar a experiência na cozinha.</strong>
+</p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-orange" alt="Status: Em desenvolvimento">
+  <img src="https://img.shields.io/badge/Projeto-TCC-blue" alt="Projeto: TCC">
+  <img src="https://img.shields.io/badge/SENAI-Jandira-red" alt="SENAI Jandira">
+  <img src="https://img.shields.io/badge/Ano-2026-green" alt="Ano: 2026">
+</p>
 
-## Sobre o Projeto
-A proposta da plataforma é ajudar pessoas com pouca experiência na cozinha a encontrar, adaptar e preparar receitas de forma simples. O sistema utiliza **Inteligência Artificial** para auxiliar na identificação de ingredientes, sugestões personalizadas e interação com as receitas.
+## Sobre o projeto
 
----
+O **Entre Panelas** é uma plataforma inteligente desenvolvida como Trabalho de Conclusão de Curso no SENAI Jandira. O projeto tem como objetivo conectar pessoas por meio da culinária, proporcionando um ambiente para descobrir, compartilhar e criar receitas.
 
-## Estrutura e Localização dos Artefatos
+A plataforma combina funcionalidades sociais com recursos inteligentes para tornar a experiência gastronômica mais acessível, interativa e personalizada.
 
-Abaixo estão dispostos os links e caminhos para cada parte essencial do projeto:
+## Vídeo Pitch
 
-### 1. Planejamento e Gestão
-* **WBS / EAP (Miro):** [Acessar Quadro no Miro](https://miro.com/welcomeonboard/MVRvSEdKK2ZRZmoraWNOZ0lxTi8rdGNqQUJhR21ZbE04TTE3cjYrejA4TzlKb1pESjg0d0xINjVjcG15SjFmclh5ZjRaelg3a1NQQ1lZL1J2bnRZU20vNVRMVHBINndZV2R2UkpPblNQOXI4bXZnSE1aM2RNTkNZT0dyZWYyMEFNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=843116237482)
+Conheça melhor o Entre Panelas por meio da apresentação oficial do projeto:
 
-### 2. Documentação e Requisitos
-* [📄 Requisitos de Negócio](./Requisitos/Requisitos%20de%20Negócio%20(TCC).docx)
-* [📄 Requisitos Funcionais](./Requisitos/Requisitos%20Funcionais%20(TCC).docx)
-* [📄 Requisitos Não Funcionais](./Requisitos/Requisitos%20Não%20Funcionais%20(TCC).docx)
+<p align="center">
+  <a href="COLE_AQUI_O_LINK_DO_YOUTUBE">
+    <img src="https://img.shields.io/badge/YouTube-Assistir%20ao%20Pitch-red?style=for-the-badge&logo=youtube" alt="Assistir ao vídeo pitch">
+  </a>
+</p>
 
-### 3. Documentação de Teste de Software
-* [📄 Plano de Teste de Software - ROTEIRO](./Teste%20de%20software/PLANO%20DE%20TESTE%20DE%20SOFTWARE%20-%20ROTEIRO.docx)
-* [📄 Plano de Teste de Software - DESEMPENHO](./Teste%20de%20software/PLANO%20DE%20TESTE%20DE%20SOFTWARE%20-%20DESEMPENHO.docx)
-* [📄 Plano de Teste de Software - USABILIDADE](./Teste%20de%20software/PLANO%20DE%20TESTE%20DE%20SOFTWARE%20-%20USABILIDADE.docx)
+<p align="center">
+  <em>Vídeo de apresentação do projeto — link em breve.</em>
+</p>
 
-### 4. Documentação das Sprints do projeto
-* [📄 Sprint da primeira semana](./Sprints/Relatorio_Primeira_Sprint_Entre_Panelas.docx)
-* [📄 Sprint da segunda semana](./Sprints/Relatorio_Segunda_Sprint_Entre_Panelas.docx)
-* [📄 Sprint da terceira semana](./Sprints/Relatorio_Terceira_Sprint_Entre_Panelas.docx)
-* [📄 Sprint da quarta semana](./Sprints/Relatorio_Quarta_Sprint_Entre_Panelas.docx)
+## Funcionalidades
 
-### 5. Código-Fonte e Recursos dos Sistemas
+- **Receitas:** criação, publicação e descoberta de receitas.
+- **Comunidades:** espaços para interação entre pessoas com interesses culinários em comum.
+- **Geladeira inteligente:** gerenciamento de ingredientes disponíveis e compatibilidade com receitas.
+- **Lista de compras:** organização dos ingredientes necessários.
+- **Interações sociais:** curtidas, usuários e acompanhamento de perfis.
+- **Chefinho:** assistente inteligente para auxiliar os usuários na experiência culinária.
+- **Filtros personalizados:** busca de receitas considerando ingredientes e características nutricionais.
 
-* **Back-end:** [Repositório Back-end no GitHub](https://github.com/enzzof08/projeto-tcc-senai-andpanelas-backend)
-  > *No repositório back-end você encontra os arquivos de modelagem do banco de dados e também a documentação do Swagger.*
+## Tecnologias utilizadas
 
-* **Front-end:** [Repositório Front-end no GitHub](https://github.com/mthenryx/projeto-tcc-senai-andpanelas-frontend)
-  > *No repositório front-end você encontra o protótipo de alta fidelidade do Figma.*
+*Adicione aqui as tecnologias efetivamente utilizadas em cada parte do projeto.*
 
-* **Inteligência artificial:** [Repositório do Chefinho no GitHub](https://github.com/mthenryx/projeto-tcc-senai-andpanelas-ia-chefinho)
-  > *No repositório do chefinho você encontra o código fonte da IA, suas conecteções com o back-end e tools.*
+## Estrutura do projeto
 
-* **Mobile:** [Repositório do Mobile no Github](https://github.com/Fernando-68/projeto-tcc-andpanelas-mobile)
-  > *No repositório mobile encontra-se a criação das telas para a interface de um celular Android*
+O Entre Panelas é dividido em diferentes aplicações e serviços:
 
----
+| Repositório | Descrição |
+|---|---|
+| Backend | API e regras de negócio |
+| Frontend | Interface web da plataforma |
+| Chefinho | Serviço de inteligência artificial |
+| Mobile | Aplicação mobile |
 
-## Equipe
-Desenvolvido pela **4Tech** como Projeto Profissional de Software — 2º Semestre de 2026.
+## Documentação
 
-* [Matheus Henry](https://github.com/mthenryx)
+- [Miro — Planejamento do projeto](COLE_AQUI_O_LINK)
+- [Documento de requisitos](COLE_AQUI_O_LINK)
+- [Documentação de testes](COLE_AQUI_O_LINK)
+- [Planejamento das Sprints](COLE_AQUI_O_LINK)
 
-* [Fernando de Sá](https://github.com/Fernando-68)
+## Equipe de desenvolvimento
 
-* [Enzzo Fernandes](https://github.com/enzzof08)
+Projeto desenvolvido pela equipe **4Tech**, no curso Técnico em Desenvolvimento de Sistemas do SENAI Jandira.
 
-* [Ryan](https://github.com/ryanalcantarasantos)
+| Integrante |
+|---|
+| Matheus Henry |
+| Ryan Alcantara |
+| Enzzo Fernandes |
+| Fernando de Sá |
+
+## Instituição
+
+**SENAI Jandira**  
+Curso Técnico em Desenvolvimento de Sistemas  
+Projeto Profissional de Software — 2º semestre de 2026.
