@@ -72,7 +72,7 @@ O Entre Panelas é dividido em diferentes aplicações e serviços:
 ## Documentação
 
 - [Miro — Planejamento do projeto](https://miro.com/welcomeonboard/MVRvSEdKK2ZRZmoraWNOZ0lxTi8rdGNqQUJhR21ZbE04TTE3cjYrejA4TzlKb1pESjg0d0xINjVjcG15SjFmclh5ZjRaelg3a1NQQ1lZL1J2bnRZU20vNVRMVHBINndZV2R2UkpPblNQOXBzazFGWTdydlNuWnJGYm5paHpjNGNhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=881727663884) 
-- [Documento de requisitos funcionais](./Requisitos/)
+- [Documento de requisitos](./Requisitos/)
 - [Documentação de testes](./Teste%20de%20software/)
 - [Planejamento das Sprints](./Sprints/)
 
