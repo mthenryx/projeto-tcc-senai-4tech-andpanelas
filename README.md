@@ -26,7 +26,7 @@ A plataforma combina funcionalidades sociais com recursos inteligentes para torn
 Conheça melhor o Entre Panelas por meio da apresentação oficial do projeto:
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=wrfW4_GVeho">
+  <a href="https://youtu.be/pwFBSQtzajk">
     <img src="https://img.shields.io/badge/YouTube-Assistir%20ao%20Pitch-red?style=for-the-badge&logo=youtube" alt="Assistir ao vídeo pitch">
   </a>
 </p>
